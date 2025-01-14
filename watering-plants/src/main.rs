@@ -13,7 +13,7 @@ fn main() -> ! {
     esp_println::logger::init_logger_from_env();
 
     loop {
-        log::info!("Hello world!");
+        log::info!("Oi meu amor!");
         delay.delay(500.millis());
     }
 }
